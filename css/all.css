@@ -231,15 +231,19 @@ button.slick-arrow{
 	display: inline-block;
 	height: 66px;
 	width: 16px;
-	background:  url(../images/prev.png) 0 0 no-repeat;
-	right: 10px;
+	
 	top: 75px;
 	border: none;
 	z-index: 100;
 }
-button.slick-arrow.slick-next {
+button.slick-arrow.slick-prev {
 	background:  url(../images/next.png) 0 0 no-repeat;
+
 	left: 10px;
+}
+button.slick-arrow.slick-next {
+	background:  url(../images/prev.png) 0 0 no-repeat;
+		right: 10px;
 }
 
 .main_header_slide_item > img{
@@ -536,6 +540,9 @@ button.slick-arrow.slick-next {
 	width: 23px;
 	height: 23px;
 	text-align: center;
+	line-height: 23px;
+	vertical-align: middle;
+	padding: 0;
 	background-color: #002597;
 	border: none;
 	color: #fff;
