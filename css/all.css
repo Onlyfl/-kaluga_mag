@@ -396,8 +396,8 @@ button.slick-arrow.slick-next {
 	color: #fff;
 }
 .product_control_price {
-	padding-bottom: 47px;
-	padding-top: 22px;
+	padding-bottom: 33px;
+	padding-top: 12px;
 }
 .product_control_price strong {
 	font-size: 54px;
@@ -521,7 +521,7 @@ button.slick-arrow.slick-next {
 	 margin-left: 12px;
 }
 .single-item-count, .single-item-count2 {
-	margin-bottom: 12px;
+	margin-bottom: 23px;
 	position: relative;
 
 }
@@ -760,7 +760,7 @@ button.slick-arrow.slick-next {
 
 .single_item_modal, .form_message, .form_request {
 	position:relative;
-	max-width: 255px;
+	//max-width: 255px;
 	background: #ff0046;
 	background: -moz-linear-gradient(top,  #ff0046 0%, #ff0046 0%, #ff094d 0%, #ff0a4d 0%, #a90a0b 100%, #a80a0a 100%, #a40000 100%);
 	background: -webkit-linear-gradient(top,  #ff0046 0%,#ff0046 0%,#ff094d 0%,#ff0a4d 0%,#a90a0b 100%,#a80a0a 100%,#a40000 100%);
@@ -775,7 +775,8 @@ button.slick-arrow.slick-next {
 }
 
 .form_message, .form_request {	
-	width: 320px;
+	//width: 320px;
+	width: 75%;
 
 }
 .form_request {
@@ -800,7 +801,8 @@ button.slick-arrow.slick-next {
 	margin-bottom: 13px;
 	color: #b0b0b0;
 		padding: 0 10px;
-	width: 180px;
+	//width: 180px;
+	width: 100%;
 	border: none;
 	font: 800 12px/2em 'HelveticaNeueCyr-Light', Arial, sans-serif;
 }
