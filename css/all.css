@@ -1282,8 +1282,9 @@ box-shadow: 0px 4px 9px #cdcdcd;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	text-align: left;
+	text-align: center;
 	padding-top: 5px;
+	overflow: hidden;
 }
 .basket_block_mobile > div {
 	display: inline-block;
@@ -1307,8 +1308,10 @@ div.basket_block__goods {
 .basket_block__sum {
 	height: auto;
 }
-.basket_block__link {
+.basket_block_mobile .basket_block__link {
 	background: none;
+	width: 70px;
+	float: left;
 }
 .product_gallery_slide_wrapper {
 	width: 180px;
