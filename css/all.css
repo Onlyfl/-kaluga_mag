@@ -616,7 +616,7 @@ button.slick-arrow.slick-next {
 	color: #a3cafd;
 	font-size: 24px;
 	line-height: 22px;
-	margin: 0;
+	margin: 0 0 10px;
 }
 .main_delivery, .main_payment {
 	background-color: #fff;
@@ -1338,6 +1338,13 @@ div.basket_block__goods {
 }
 .header_menu {
 	background-position: center bottom;
+
+}
+.header_right, .header_center {
+	padding-top: 10px;
+}
+.header_logo_text {
+	line-height: 1.5em;
 }
 .main_header_wrapper h2 {
 	font-size: 24px;
@@ -1354,8 +1361,16 @@ div.basket_block__goods {
 	padding: 5px;
 	width: 190px;
 }
-.main_bottom_subscribe {
+.single-item-price span {
+	display: inline-block;
 	width: 70%;
+	text-align: center;
+}
+.header_subscribe {
+	width: 70%;
+}
+.main_bottom_subscribe {
+	width: 95%;
 	min-width: 150px;
 	font-size: 15px;
 	height: auto; 
