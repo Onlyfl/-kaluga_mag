@@ -1341,19 +1341,26 @@ div.basket_block__goods {
 	padding-top: 10px;
 	background-size: contain;
 }
-.header_logo {
-	overflow: hidden; clear: both;
-}
+
 .header_right {
-	padding-top: 10px;
+	padding-top: 20px;
 }
  .header_center {
-padding-top: 15px;
+padding-top: 20px;
  }
  .header_phone {
  	 	font-size: 15px;
  	 	background-size: contain;
  }
+ .header_logo_wrap {
+	text-align: center;
+}
+ .header_logo {
+ 	text-align: center;
+	overflow: hidden;
+	clear: both;
+	display: inline-block;
+}
 .header_logo_img_wrap {
 	display: inline-block;
 	width: 40px;
