@@ -238,12 +238,12 @@ button.slick-arrow{
 }
 button.slick-arrow.slick-prev {
 	background:  url(../images/next.png) 0 0 no-repeat;
-
 	left: 10px;
 }
 button.slick-arrow.slick-next {
 	background:  url(../images/prev.png) 0 0 no-repeat;
 		right: 10px;
+		background-size: cover;
 }
 
 .main_header_slide_item > img{
