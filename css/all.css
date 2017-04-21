@@ -1485,6 +1485,9 @@ width: 100%;
 .product_gallery {
 	padding-left: 10%;
 }
+.main_header_carousel > ul{
+	padding: 0 35px 0 35px;
+}
 }
 @media (max-width: 400px)  {
 .main_bottom_subscribe > span:after {
