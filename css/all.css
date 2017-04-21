@@ -205,6 +205,9 @@ body {
 	position: relative;
 	padding-bottom: 55px;
 }
+.main_header_carousel > ul{
+	padding: 0 43px 0 37px;
+}
 .main_header_slide_item {
 	position: relative;
 	padding: 20px 0 0 0;
@@ -231,7 +234,7 @@ button.slick-arrow{
 	display: inline-block;
 	height: 66px;
 	width: 16px;
-	top: 95px;
+	top: 105px;
 	border: none;
 	z-index: 50;
 }
@@ -594,6 +597,9 @@ button.slick-arrow.slick-next {
 	display: inline-block;
 	position: relative;
 }
+.main_bottom_subscribe > span > span {
+	display: inline-block;
+}
 .main_bottom_subscribe > span:after {
 	content: "";
 	position: absolute;
@@ -809,6 +815,22 @@ textarea.single_item_modal_input {
 	height: 100px;
 	padding: 0 10px;
 }
+.file_holder {
+	color: #fff;
+	padding-top: 15px;
+}
+.file_holder_main_text {
+	display: inline-block;
+	margin-right: 25px;
+}
+.file_holder > input[type=file] {
+	display: inline-block;
+	border: none;
+	line-height: 2em;
+	vertical-align: middle;
+}
+
+
 .form_message__note {
 	display: block;
 	color: #fff;
