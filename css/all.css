@@ -232,7 +232,7 @@ button.slick-arrow{
 	height: 66px;
 	width: 16px;
 	
-	top: 75px;
+	top: 95px;
 	border: none;
 	z-index: 100;
 }
@@ -1301,6 +1301,10 @@ div.basket_block__goods {
 		background: none;
 		border-bottom: none;
 		text-align: left;
+}
+.basket_block__link > a{
+	line-height: 1.5em;
+	padding-top: 5px;
 }
 .basket_block_mobile .basket_block__goods span, .basket_active .basket_block__goods strong {
 	display: inline-block;
