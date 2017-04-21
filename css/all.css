@@ -1374,7 +1374,7 @@ div.basket_block__goods {
 .product_description_note {
 	margin-bottom: 15px;
 }
-.product_control_price {padding-bottom: 15px;}
+//.product_control_price {padding-bottom: 15px;}
 .file_holder_main_text {
 	padding: 0;
 }
@@ -1464,7 +1464,8 @@ width: 100%;
 	height: auto; 
 }
 .main_bottom_subscribe > span:after {
-	display: none;
+	//display: none;
+	top:6px;
 }
 .main_delivery, .main_payment {
 	font-size: 15px;
@@ -1485,4 +1486,9 @@ width: 100%;
 	padding-left: 10%;
 }
 }
-
+@media (max-width: 400px)  {
+.main_bottom_subscribe > span:after {
+	top: 20px;
+	right: 15px;
+}
+}
