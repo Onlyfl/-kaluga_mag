@@ -817,8 +817,8 @@ textarea.single_item_modal_input {
 }
 .file_holder {
 	color: #fff;
-	padding-top: 15px;
 	text-align: left;
+	margin-top: -13px;
 }
 .file_holder_main_text {
 	display: inline-block;
