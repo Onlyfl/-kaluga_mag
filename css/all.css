@@ -818,16 +818,12 @@ textarea.single_item_modal_input {
 .file_holder {
 	color: #fff;
 	padding-top: 15px;
+	text-align: left;
 }
 .file_holder_main_text {
 	display: inline-block;
 	margin-right: 25px;
-}
-.file_holder > input[type=file] {
-	display: inline-block;
-	border: none;
-	line-height: 2em;
-	vertical-align: middle;
+	padding-left: 10px;
 }
 
 
