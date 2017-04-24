@@ -23,7 +23,7 @@ html {box-sizing: border-box;}
 body {
 	margin: 0;
 	color: #002597;
-	font: 400 12px/2em ImpactRegular, Arial, sans-serif;
+	font: 400 12px/2em Verdana, Arial, sans-serif;
 }
 .clearfix::after {
     content: "";
