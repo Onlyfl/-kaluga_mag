@@ -1181,7 +1181,7 @@ height: 23px;
 	width: 29px;
 	height: 29px;
 	border: none;
-	background:  url(../images/delete.png) 0 0 no-repeat;
+	background:  url(../images/delete2.png) 0 0 no-repeat;
 }
 .basket_table_control {
 	text-align: center;
@@ -1492,10 +1492,7 @@ width: 100%;
     max-width: 100%;
     overflow: auto;
 }
-.basket_order_table {
-	overflow-x: auto;
-	
-}
+
 }
 @media (max-width: 400px)  {
 .main_bottom_subscribe > span:after {
