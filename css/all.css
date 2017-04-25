@@ -1313,7 +1313,7 @@ box-shadow: 0px 4px 9px #cdcdcd;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	align-items: baseline;
+	align-items: center;
 	bottom: 0;
 	left: 0;
 	width: 100%;
@@ -1344,9 +1344,12 @@ div.basket_block__goods {
 .basket_block_mobile .basket_block__goods span, .basket_active .basket_block__goods strong {
 	display: inline-block;
 }
-.basket_block__sum {
-	padding: 0;
+div.basket_block__sum {
+	padding-top: 12px;
+	display: table-cell;
+	vertical-align: middle;
 }
+
 .basket_block_mobile .basket_block__link {
 	background: none;
 	width: 80px;
