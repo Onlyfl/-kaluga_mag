@@ -1338,7 +1338,7 @@ div.basket_block__goods {
 }
 .basket_block__link > a{
 	line-height: 1.5em;
-	padding-top: 5px;
+	padding-top: 15px;
 }
 .basket_block_mobile .basket_block__goods span, .basket_active .basket_block__goods strong {
 	display: inline-block;
@@ -1351,7 +1351,7 @@ div.basket_block__goods {
 }
 .basket_block_mobile .basket_block__link {
 	background: none;
-	width: 70px;
+	width: 80px;
 	float: left;
 }
 .product_gallery_slide_wrapper {
