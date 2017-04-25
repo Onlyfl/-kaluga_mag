@@ -1488,10 +1488,19 @@ width: 100%;
 .main_header_carousel > ul{
 	padding: 0 35px 0 35px;
 }
+.basket_table_wrapp {
+    max-width: 100%;
+    overflow: auto;
+}
+.basket_order_table {
+	overflow-x: auto;
+	
+}
 }
 @media (max-width: 400px)  {
 .main_bottom_subscribe > span:after {
 	top: 20px;
 	right: 15px;
 }
+
 }
