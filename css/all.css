@@ -1288,6 +1288,82 @@ box-shadow: 0px 4px 9px #cdcdcd;
 	background: linear-gradient(to bottom, #d7d9da 0%,#d0d2d3 2%,#cbcdce 7%,#797c7e 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d9da', endColorstr='#797c7e',GradientType=0 );
 }
+.contact_header {
+
+}
+.contact_header h1 {
+	font-size: 43px;
+	color: #cc0000;
+	font-family: "ImpactRegular";
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+.contact_main {
+	font-size: 0;
+	padding: 0 20px 5px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.contact_main_wrapp {
+
+}
+.contact_block {
+	width: 180px;
+	height: 195px;
+	background-color: #be0014;
+	text-align: center;
+	font-size: 15px;
+	padding: 6px 8px 10px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.contact_block:nth-child(5n){margin-right: 0;}
+.contact_block h4 {
+	color: #fff;
+	font-size: 23px;
+	line-height: 1em;
+	  font-family: "ImpactRegular";
+	  margin: 0;
+	  height: 45px;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  margin-bottom: 8px;
+}
+.contact_block a {
+	display: block;
+	font-size: 15px;
+	line-height: 1.3em;
+	  font-family: "ImpactRegular";
+	  color: #fff;
+	  padding-bottom: 5px;
+	  background:  url(../images/separate2.png) bottom center no-repeat;
+}
+.contact_block a span {
+	display: block;
+}
+.contact_block a:hover {
+	color: #000;
+	 background:  url(../images/separate.png) bottom center no-repeat;
+}
+.contact_block_img {
+	margin-bottom: 5px;
+	text-align: center;
+}
+.contact_block_img_wrapp {
+	display: flex;
+ justify-content: center;
+	  align-items: center;
+	height: 65px;
+
+	
+}
+.contact_block_img img { 
+	
+}
 @media (max-width: 1016px)  {
 	.product_description_note {
 		text-align: center;
