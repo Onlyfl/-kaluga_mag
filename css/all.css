@@ -1383,7 +1383,7 @@ box-shadow: 0px 4px 9px #cdcdcd;
 	-webkit-border-radius: 5px;
 	-khtml-border-radius: 5px;
 
-
+	display: none;
 }
 .button_top img {
 	width: 100%;
